@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.background-img{
+    
+    background :url("./Assets/background.jpg") no-repeat center;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.picture{
+    border-radius: 29% 71% 63% 37% / 38% 51% 49% 62% ;
+} 
+
+.menu-btn:hover{
+    transition: all 0.3s ease;
+    color: #dc143c;
+
+}
+
+@media screen and (max-width: 768px){
+    .small{
+    height: 500px;
+}
+.hide-on-small-screen {
+    display: none;
+}
+
+.small-p-m{
+    /* padding: 0.5rem 0rem; */
+    padding: 10px 0 8px 0;
+    
+}
+
+}
+
+
+
+.hide-on-small {
+    display: none;
+  }
+  
+  @media (min-width: 1036px)  {
+    .hide-on-small {
+      display: block;
+    }
+  
+  }
+    
+
+/* contact-placeholder */
+.placeholder-custom::placeholder {
+    color: #6c757d;
+    font-weight:600;
+    
+}
+
+
+/* project section */
+
