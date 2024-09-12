@@ -4,28 +4,28 @@ import 'aos/dist/aos.css';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; //  carousel styles
 //projects-images
-import stopwatch from "../Assets/projectsImg/Stopwatch.png";
-import tiktak from "../Assets/projectsImg/Tic Tak Toe.png";
+// import stopwatch from "../Assets/projectsImg/Stopwatch.png";
+// import tiktak from "../Assets/projectsImg/Tic Tak Toe.png";
 import login from "../Assets/projectsImg/LoginForm.png";
 import eMart from "../Assets/projectsImg/ecommerce.png";
-import toDo from "../Assets/projectsImg/toDo.png";
-import weather from "../Assets/projectsImg/wether.png";
+// import toDo from "../Assets/projectsImg/toDo.png";
+// import weather from "../Assets/projectsImg/wether.png";
 import notes from "../Assets/projectsImg/note.png";
 import Dashboard from "../Assets/projectsImg/Dashboard.png";
 
 const projects = [
-    {
-        title: 'Dynamic Stopwatch Application',
-        description: 'Experience precision with this dynamic stopwatch built using React and Tailwind CSS.',
-        imageUrl: stopwatch,
-        details: 'This application provides seamless start, pause, and reset functionalities. It boasts a modern and intuitive interface, showcasing the power of React for real-time updates and Tailwind CSS for stylish, responsive design. Track your laps effortlessly and enjoy the sleek user experience.'
-    },
-    {
-        title: 'Interactive Tic Tac Toe Game',
-        description: 'Engage in a classic yet futuristic Tic Tac Toe game with both single and multiplayer modes.',
-        imageUrl: tiktak,
-        details: 'This Tic Tac Toe game brings a modern twist to a timeless classic. Built with React and styled with Tailwind CSS, it features captivating animations, score tracking, and a challenging CPU opponent. Whether playing solo or with friends, the stylish design and responsive interface ensure a fun experience.'
-    },
+    // {
+    //     title: 'Dynamic Stopwatch Application',
+    //     description: 'Experience precision with this dynamic stopwatch built using React and Tailwind CSS.',
+    //     imageUrl: stopwatch,
+    //     details: 'This application provides seamless start, pause, and reset functionalities. It boasts a modern and intuitive interface, showcasing the power of React for real-time updates and Tailwind CSS for stylish, responsive design. Track your laps effortlessly and enjoy the sleek user experience.'
+    // },
+    // {
+    //     title: 'Interactive Tic Tac Toe Game',
+    //     description: 'Engage in a classic yet futuristic Tic Tac Toe game with both single and multiplayer modes.',
+    //     imageUrl: tiktak,
+    //     details: 'This Tic Tac Toe game brings a modern twist to a timeless classic. Built with React and styled with Tailwind CSS, it features captivating animations, score tracking, and a challenging CPU opponent. Whether playing solo or with friends, the stylish design and responsive interface ensure a fun experience.'
+    // },
     {
         title: 'Advanced Admin Dashboard',
         description: 'A sophisticated admin dashboard for managing eCommerce operations, designed with HTML, CSS, and JavaScript.',
@@ -50,18 +50,18 @@ const projects = [
         imageUrl: login,
         details: 'This project showcases a clean, simple, and responsive login form. Designed with attention to detail using HTML, CSS, and JavaScript, it includes form validation and an intuitive layout. The form adapts beautifully to various screen sizes, ensuring a smooth user experience on any device.'
     },
-    {
-        title: 'Efficient To-Do List Manager',
-        description: 'Stay organized with this efficient task management app, built with React and Tailwind CSS.',
-        imageUrl: toDo,
-        details: 'This to-do list app offers a simple and effective way to manage tasks. Features include adding, editing, and deleting tasks, with a clean interface that adapts to any device. Built with React for dynamic functionality and styled with Tailwind CSS, it ensures a smooth and visually appealing user experience.'
-    },
-    {
-        title: 'Real-Time Weather Application',
-        description: 'Get accurate weather updates with this real-time weather app, powered by React and Tailwind CSS.',
-        imageUrl: weather,
-        details: 'The Weather App fetches and displays current weather information based on user input. Built with React, it integrates seamlessly with a weather API to provide real-time data. Tailwind CSS ensures a modern and responsive design, making it easy to get weather updates on the go.'
-    },
+    // {
+    //     title: 'Efficient To-Do List Manager',
+    //     description: 'Stay organized with this efficient task management app, built with React and Tailwind CSS.',
+    //     imageUrl: toDo,
+    //     details: 'This to-do list app offers a simple and effective way to manage tasks. Features include adding, editing, and deleting tasks, with a clean interface that adapts to any device. Built with React for dynamic functionality and styled with Tailwind CSS, it ensures a smooth and visually appealing user experience.'
+    // },
+    // {
+    //     title: 'Real-Time Weather Application',
+    //     description: 'Get accurate weather updates with this real-time weather app, powered by React and Tailwind CSS.',
+    //     imageUrl: weather,
+    //     details: 'The Weather App fetches and displays current weather information based on user input. Built with React, it integrates seamlessly with a weather API to provide real-time data. Tailwind CSS ensures a modern and responsive design, making it easy to get weather updates on the go.'
+    // },
 ];
 
 const Projects = () => {

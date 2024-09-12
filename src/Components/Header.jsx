@@ -5,10 +5,9 @@ import { FaLinkedin } from "react-icons/fa";
 function Header() {
     const [isOpen, setOpen] = useState(false);
     const [isScrolled, setScrolled] = useState(false);
-    const [scrollDirection, setScrollDirection] = useState("up");
 
     useEffect(() => {
-        let prevScrollY = window.scrollY;
+        
 
         const handleScroll = () => {
             const currentScrollY = window.scrollY;
@@ -19,13 +18,6 @@ function Header() {
                 setScrolled(false);
             }
 
-            if (prevScrollY < currentScrollY) {
-                setScrollDirection("down");
-            } else {
-                setScrollDirection("up");
-            }
-
-            prevScrollY = currentScrollY;
         };
 
         window.addEventListener('scroll', handleScroll);
