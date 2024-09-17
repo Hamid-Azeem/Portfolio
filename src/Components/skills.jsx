@@ -9,7 +9,7 @@ function SkillCard() {
     }, []);
 
     return (
-        <section className="max-w-[1300px] mx-auto my-0 " id="skills">
+        <section className="max-w-[1300px] mx-auto mb-3 " id="skills">
             <h1 className="text-4xl md:text-5xl text-center text-[#353535] pb-5 font-bold mb-[4rem]" data-aos="fade-up">My Skills</h1>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 justify-center mx-4 md:mx-auto md:px-[5rem] lg:px-[10rem] xl:px-[15rem]">
                 {cards.map((card) => (
