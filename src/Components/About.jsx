@@ -16,7 +16,7 @@ function About() {
                     </p>
                     <button className="mt-6">
                         <a
-                            href="/hamid_resume.pdf"
+                            href="hamid_resume.pdf"
                             download="hamid_resume.pdf"
                             className="inline-block bg-[#dc143c] text-white text-[1rem] font-medium py-2 px-6 rounded-lg border-2 border-[#dc143c] transition-all duration-300 hover:bg-transparent hover:text-[#dc143c]"
                         >
